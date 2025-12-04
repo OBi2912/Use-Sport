@@ -11,7 +11,7 @@ const translations = {
 
         // Hero
         heroTitle: 'Elevate Your Game',
-        heroSubtitle: 'Premium gear for Soccer, Basketball, Swimming, Golf, Baseball, and Tennis.',
+        heroSubtitle: 'Premium gear for Soccer, Basketball, Swimming, Golf, Baseball, Tennis, Hockey, Rugby, Volleyball, and Formula 1.',
         exploreCollection: 'Explore Collection',
 
         // Categories
@@ -80,6 +80,10 @@ const translations = {
         golf: 'Golf',
         baseball: 'Baseball',
         tennis: 'Tennis',
+        hockey: 'Hockey',
+        rugby: 'Rugby',
+        volleyball: 'Volleyball',
+        formula1: 'Formula 1',
 
         // Descriptions
         soccerDesc: 'Elite gear for the beautiful game.',
@@ -88,6 +92,10 @@ const translations = {
         golfDesc: 'Precision instruments for the perfect swing.',
         baseballDesc: 'Classic gear for America\'s pastime.',
         tennisDesc: 'Serve an ace with top-tier rackets.',
+        hockeyDesc: 'Ice gear for the fastest sport on ice.',
+        rugbyDesc: 'Tough gear for the ultimate team sport.',
+        volleyballDesc: 'Spike your game with professional equipment.',
+        formula1Desc: 'High-speed gear for racing enthusiasts.',
     },
     es: {
         // Navbar
@@ -95,7 +103,7 @@ const translations = {
 
         // Hero
         heroTitle: 'Eleva Tu Juego',
-        heroSubtitle: 'Equipo premium para Fútbol, Baloncesto, Natación, Golf, Béisbol y Tenis.',
+        heroSubtitle: 'Equipo premium para Fútbol, Baloncesto, Natación, Golf, Béisbol, Tenis, Hockey, Rugby, Voleibol y Fórmula 1.',
         exploreCollection: 'Explorar Colección',
 
         // Categories
@@ -164,6 +172,10 @@ const translations = {
         golf: 'Golf',
         baseball: 'Béisbol',
         tennis: 'Tenis',
+        hockey: 'Hockey',
+        rugby: 'Rugby',
+        volleyball: 'Voleibol',
+        formula1: 'Fórmula 1',
 
         // Descriptions
         soccerDesc: 'Equipo de élite para el deporte rey.',
@@ -172,6 +184,10 @@ const translations = {
         golfDesc: 'Instrumentos de precisión para el swing perfecto.',
         baseballDesc: 'Equipo clásico para el pasatiempo de América.',
         tennisDesc: 'Saca un ace con raquetas de primera.',
+        hockeyDesc: 'Equipo de hielo para el deporte más rápido sobre hielo.',
+        rugbyDesc: 'Equipo resistente para el deporte de equipo definitivo.',
+        volleyballDesc: 'Impulsa tu juego con equipo profesional.',
+        formula1Desc: 'Equipo de alta velocidad para entusiastas de las carreras.',
     }
 };
 

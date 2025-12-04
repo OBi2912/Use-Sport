@@ -66,4 +66,48 @@ export const categories = [
       { id: 't3', name: 'Wristbands', price: 12, image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300' },
     ]
   },
+  {
+    id: 'hockey',
+    title: 'Hockey',
+    image: 'https://images.unsplash.com/photo-1551537130-e386cf0288fb?w=400',
+    description: 'Ice gear for the fastest sport on ice.',
+    products: [
+      { id: 'h1', name: 'Ice Skates', price: 300, image: 'https://images.unsplash.com/photo-1551537130-e386cf0288fb?w=300' },
+      { id: 'h2', name: 'Hockey Stick', price: 150, image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=300' },
+      { id: 'h3', name: 'Goalie Mask', price: 120, image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300' },
+    ]
+  },
+  {
+    id: 'rugby',
+    title: 'Rugby',
+    image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400',
+    description: 'Tough gear for the ultimate team sport.',
+    products: [
+      { id: 'r1', name: 'Rugby Ball', price: 80, image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=300' },
+      { id: 'r2', name: 'Protective Gear', price: 200, image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300' },
+      { id: 'r3', name: 'Training Boots', price: 180, image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=300' },
+    ]
+  },
+  {
+    id: 'volleyball',
+    title: 'Volleyball',
+    image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400',
+    description: 'Spike your game with professional equipment.',
+    products: [
+      { id: 'v1', name: 'Volleyball', price: 60, image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=300' },
+      { id: 'v2', name: 'Knee Pads', price: 40, image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300' },
+      { id: 'v3', name: 'Net Set', price: 150, image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=300' },
+    ]
+  },
+  {
+    id: 'formula1',
+    title: 'Formula 1',
+    image: 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400',
+    description: 'High-speed gear for racing enthusiasts.',
+    products: [
+      { id: 'f1', name: 'Racing Helmet', price: 500, image: 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=300' },
+      { id: 'f2', name: 'Fire Suit', price: 800, image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300' },
+      { id: 'f3', name: 'Racing Gloves', price: 120, image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300' },
+    ]
+  },
 ];

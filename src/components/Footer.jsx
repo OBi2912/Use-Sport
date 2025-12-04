@@ -86,6 +86,10 @@ const Footer = () => {
                             <li><a href="#golf">{t('golf')}</a></li>
                             <li><a href="#baseball">{t('baseball')}</a></li>
                             <li><a href="#tennis">{t('tennis')}</a></li>
+                            <li><a href="#hockey">{t('hockey')}</a></li>
+                            <li><a href="#rugby">{t('rugby')}</a></li>
+                            <li><a href="#volleyball">{t('volleyball')}</a></li>
+                            <li><a href="#formula1">{t('formula1')}</a></li>
                         </ul>
                     </div>
 
