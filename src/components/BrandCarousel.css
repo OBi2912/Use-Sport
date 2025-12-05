@@ -1,0 +1,65 @@
+.brand-carousel {
+  padding: 4rem 0;
+  background: var(--bg-secondary);
+  overflow: hidden;
+}
+
+.carousel-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.brand-item {
+  flex-shrink: 0;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2rem;
+}
+
+.brand-logo {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--text-secondary);
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+}
+
+.brand-item:hover .brand-logo {
+  color: var(--accent-color);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .brand-item {
+    width: 150px;
+    margin: 0 1rem;
+  }
+
+  .brand-logo {
+    font-size: 1.5rem;
+  }
+}

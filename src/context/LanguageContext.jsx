@@ -17,6 +17,8 @@ const translations = {
         // Categories
         shopBySport: 'Shop by Sport',
         collection: 'Collection',
+        trustedBrands: 'Trusted by Top Brands',
+        featuredProducts: 'Featured Products',
 
         // Products
         addToCart: 'Add to Cart',
@@ -109,6 +111,8 @@ const translations = {
         // Categories
         shopBySport: 'Comprar por Deporte',
         collection: 'Colección',
+        trustedBrands: 'Confianza de las Mejores Marcas',
+        featuredProducts: 'Productos Destacados',
 
         // Products
         addToCart: 'Agregar al Carrito',

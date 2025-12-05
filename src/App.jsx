@@ -5,6 +5,8 @@ import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import CategorySection from './components/CategorySection';
+import BrandCarousel from './components/BrandCarousel';
+import ProductCarousel from './components/ProductCarousel';
 import AllProducts from './components/AllProducts';
 import Footer from './components/Footer';
 import CheckoutPage from './components/CheckoutPage';
@@ -21,6 +23,8 @@ function App() {
                 <>
                   <Hero />
                   <CategorySection />
+                  <BrandCarousel />
+                  <ProductCarousel />
                   <AllProducts />
                 </>
               } />

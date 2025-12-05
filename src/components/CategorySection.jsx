@@ -28,12 +28,13 @@ const CategorySection = () => {
                 columnClassName="my-masonry-grid_column"
             >
                 {categories.map((category) => (
-                    <div
-                        key={category.id}
-                        className="glass-card product-card category-card"
-                        onClick={() => handleCategoryClick(category.id)}
-                        style={{ cursor: 'pointer' }}
-                    >
+                  <div
+                    key={category.id}
+                    id={category.id}
+                    className="glass-card product-card category-card"
+                    onClick={() => handleCategoryClick(category.id)}
+                    style={{ cursor: 'pointer' }}
+                  >
                         <div className="product-image-wrapper">
                             <img src={category.image} alt={category.title} className="product-image" />
                         </div>
